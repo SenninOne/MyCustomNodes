@@ -7,6 +7,7 @@ from .ComparisonNode import ComparisonNode
 from .SEGS_to_Centers import SEGS_to_Centers_Node
 from .RemoveDuplicateTags import RemoveDuplicateTags
 from .MaskAreaNode import MaskAreaNode
+from .TagSearchNode import TagSearchNode
 
 NODE_CLASS_MAPPINGS = {
     "TextConcatNode": TextConcatNode,
@@ -18,6 +19,7 @@ NODE_CLASS_MAPPINGS = {
     "SEGS_to_Centers": SEGS_to_Centers_Node,
     "RemoveDuplicateTags": RemoveDuplicateTags,
     "MaskAreaNode": MaskAreaNode,
+    "TagSearchNode": TagSearchNode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -30,6 +32,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "SEGS_to_Centers": "SEGS to Centers",
     "RemoveDuplicateTags": "Remove Duplicate Tags",
     "MaskAreaNode": "Mask Area Node",
+    "TagSearchNode": "Tag Search",
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
